@@ -4,6 +4,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
+    image: ghcr.io/ymmmtym/jenkins
     container_name: jenkins
     ports:
       - 8080:8080
