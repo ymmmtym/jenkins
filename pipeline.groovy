@@ -4,8 +4,8 @@ pipelineJob('Pipeline Basic Job') {
 
   description("Pipeline for $repo")
 
-  columns {
-    cronTrigger('H/5 * * * *')
+  triggers {
+    scm('H/5 * * * *')
   }
 
   definition {
