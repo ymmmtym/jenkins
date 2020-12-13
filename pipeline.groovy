@@ -13,7 +13,7 @@ pipelineJob('Pipeline Basic Job') {
       scm {
         git {
           remote { url(repo) }
-          branches('master')
+          branches('main')
           scriptPath('Jenkinsfile')
           extensions { }
         }
