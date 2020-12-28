@@ -8,6 +8,8 @@ pipelineJob('Pipeline Basic Job') {
     scm('H/5 * * * *')
   }
 
+  skipPublishingChecks(false)
+
   definition {
     cpsScm {
       scm {
