@@ -1,7 +1,7 @@
 version: "3"
 services:
   jenkins:
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile
     image: ghcr.io/ymmmtym/jenkins
