@@ -7,7 +7,7 @@ docker-compose up -d
 ```
 
 1. Access to <http://localhost:8080>
-2. login via admin and folloing password
+2. login as admin user and folloing password
 
 ```bash
 cat jenkins_home/secrets/initialAdminPassword
